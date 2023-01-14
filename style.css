@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(74, 102, 128);
+    background-image: url(body.jpg);
+}
+#heading {
+    text-align: center;
+    top: auto;
+    width: auto;
+    padding: 5px;
+    margin: -5px;
+}
+
+#heading h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 2px;
+    border: 2px solid rgb(126, 126, 126);
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: drop-shadow(20px 10px 4px #07f0f8);
+}
+
+#heading h1:hover {
+    color: rgb(255, 254, 247);
+    filter: drop-shadow(20px 10px 5px #09ff68);
+}
+
+.main {
+    border-radius: 50px;
+    color: whitesmoke;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    text-align: left;
+    margin: 20px 200px 2px 200px;
+    border: 1px solid gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: drop-shadow(2px 10px 20px #07f0f8);
+}
+
+.title:hover {
+    color: rgb(255, 238, 0);
+}
+
+.add {
+    padding: auto;
+    margin-top: -20px;
+}
+
+.searchbar {
+    padding: 5px;
+}
+
+.searchbar-2 {
+    padding: 7px;
+    border: none;
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    color: white;
+}
+
+.searchbar-2:hover {
+    background-color: rgb(168, 71, 71);
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 2px;
+}
+
+.list-group li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.list-group-item {
+    font-weight: 5px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list-group-item:hover {
+    background-color: rgb(103, 161, 180);
+    border: 1px solid white;
+    color: rgb(255, 251, 0);
+}
+
+ul {
+    margin-top: -20px;
+}
+
+.list-group li button {
+    float: right;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(173, 45, 45);
+}
+
+.btn {
+    padding: 6px 10px;
+    margin: -5px 0px 0px 2px;
+}
+
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
